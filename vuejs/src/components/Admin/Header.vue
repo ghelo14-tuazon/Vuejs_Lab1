@@ -7,10 +7,10 @@
   <meta content="" name="description">
   <meta content="" name="keywords">
 
-  <!-- Favicons -->
+
   
  
-<!-- Template Main CSS File -->
+
 <link href="assets/admin/css/style.css" rel="stylesheet">
 
   <!-- =======================================================
@@ -24,7 +24,7 @@
 
 <body>
 
-  <!-- ======= Header ======= -->
+  
   <header id="header" class="header fixed-top d-flex align-items-center">
 
     <div class="d-flex align-items-center justify-content-between">
