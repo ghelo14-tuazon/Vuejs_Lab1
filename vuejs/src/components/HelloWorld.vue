@@ -826,6 +826,31 @@ export default {
       },
     ],
   }),
+  methods: {
+    loadScript(url, callback) {
+      const script = document.createElement('script');
+      script.src = url;
+      script.onload = callback; // Execute the callback once the script is loaded
+      document.body.appendChild(script);
+    },
+    loadScripts() {
+      const scriptUrls = [
+        '/js/bootstrap.min.js',
+        '/js/jquery.countdown.min.js',
+        '/js/jquery.nice-select.min.js',
+        '/js/jquery.nicescroll.min.js',
+        '/js/slick.min.js',
+        '/js/biolife.framework.js',
+        '/js/functions.js'
+        
+      ];
+
+      // Load other scripts after jQuery is loaded
+      for (const url of scriptUrls) {
+        this.loadScript(url);
+      }
+    },
+  },
 }
 </script>
 <style scoped>
