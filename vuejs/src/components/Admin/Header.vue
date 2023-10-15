@@ -11,15 +11,7 @@
   
  
 
-<link href="assets/admin/css/style.css" rel="stylesheet">
-
-  <!-- =======================================================
-  * Template Name: NiceAdmin
-  * Updated: Sep 18 2023 with Bootstrap v5.3.2
-  * Template URL: https://bootstrapmade.com/nice-admin-bootstrap-admin-html-template/
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
+<
 </head>
 
 <body>
@@ -1094,6 +1086,7 @@
 @import '@/assets/admin/vendor/quill/quill.bubble.css';
 @import '@/assets/admin/vendor/remixicon/remixicon.css';
 @import '@/assets/admin/vendor/simple-datatables/style.css';
+@import '@/assets/admin/css/style.css';
 
 
 
