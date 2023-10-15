@@ -9,8 +9,6 @@
 
 
 
-  <!-- Template Main CSS File -->
-  <link href="assets/css/style.css" rel="stylesheet">
 
  
 </head>
@@ -347,7 +345,7 @@
   @import '@/assets/admin/vendor/quill/quill.bubble.css';
   @import '@/assets/admin/vendor/remixicon/remixicon.css';
   @import '@/assets/admin/vendor/simple-datatables/style.css';
-  
+    @import '@/assets/admin/css/style.css';
   
   
   </style>
